@@ -1,10 +1,8 @@
-# 変数と定数の練習
-# データ（オブジェクト）
-# メソッド(クラスで定義) クラスの後に .xxxx　で呼び出し
+# 文字列オブジェクト
 
 name = "yaguchi"
-x = "Hello world #{name}"
+x = "Hello world #{name}" #変数展開、特殊文字
 y = 'Hello World #{name}'
 
-puts x + name * 5
-puts y * 5
+puts x
+puts "hello" * 5
